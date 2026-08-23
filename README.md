@@ -2,6 +2,8 @@
 
 SkyGraph is a high-performance flight pathfinding application built for the **Wexa AI Software Developer Intern Assessment**. It utilizes **CognoDB** (a managed graph database) to solve complex routing problems across a global network of remote and hub airports.
 
+Live - https://skygraph-flight-finder-tysr.vercel.app/
+
 ## 🚀 Project Flow
 1. **Discovery:** The user explores available airport hubs in the "Discovery Sidebar."
 2. **Selection:** The user selects an **Origin** (e.g., Thule, Greenland) and a **Destination** (e.g., Goroka, Papua New Guinea).

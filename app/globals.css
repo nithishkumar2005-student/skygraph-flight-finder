@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  background: #020202;
+  color: white;
+}
+
+body {
+  background-color: #020202;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18181b;
+  border-radius: 10px;
+}

@@ -1,4 +1,5 @@
-# SkyGraph ✈️ | Global Flight Intelligence Platform
+<img width="1919" height="1142" alt="live" src="https://github.com/user-attachments/assets/bc57cc04-82d2-460c-9595-e4250822c9b4" />
+# SkyGraph  | Global Flight Intelligence Platform
 
 SkyGraph is a high-performance flight pathfinding application built for the **Wexa AI Software Developer Intern Assessment**. It utilizes **CognoDB** (a managed graph database) to solve complex routing problems across a global network of remote and hub airports.
 

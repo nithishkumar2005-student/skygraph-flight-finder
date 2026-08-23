@@ -21,11 +21,3 @@ This project demonstrates why graph databases are superior for networking use ca
 ## 📊 Data Model
 - **Nodes (`:Airport`)**: Properties include `iata`, `name`, `city`, and `country`.
 - **Relationships (`:FLIES_TO`)**: Bidirectional edges representing a flight connection.
-
-### The "Killer" Query (Multi-hop Traversal)
-This query solves the complex pathfinding problem in a single step:
-```cypher
-MATCH (src:Airport {iata: $from}), (dest:Airport {iata: $to})
-MATCH p = shortestPath((src)-[:FLIES_TO*..15]->(dest))
-RETURN nodes(p) AS airports
-<img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/17b02ae3-2213-48c7-80ec-838f4b6150f3" />
